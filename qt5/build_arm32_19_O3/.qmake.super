@@ -1,0 +1,2 @@
+QTREPOS += /home/dsr/Projects/qt5/build_arm32_19_O3/qtbase
+QMAKEMODULES += /home/dsr/Projects/qt5/build_arm32_19_O3/qtbase/mkspecs/modules

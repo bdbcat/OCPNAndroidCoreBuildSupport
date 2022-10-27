@@ -1,0 +1,3 @@
+<rules><dependencies><lib name="Qt5VirtualKeyboard"><depends>
+<bundled file="plugins/virtualkeyboard" />
+</depends></lib></dependencies></rules>

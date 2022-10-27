@@ -1,0 +1,10 @@
+QT.gui.enabled_features = accessibility action opengles2 clipboard colornames cssparser cursor desktopservices imageformat_xpm draganddrop opengl imageformatplugin highdpiscaling im image_heuristic_mask image_text imageformat_bmp imageformat_jpeg imageformat_png imageformat_ppm imageformat_xbm movie pdf picture sessionmanager shortcut standarditemmodel systemtrayicon tabletevent texthtmlparser textodfwriter validator vulkan whatsthis wheelevent
+QT.gui.disabled_features = angle combined-angle-lib dynamicgl opengles3 opengles31 opengles32 openvg
+QT.gui.QT_CONFIG = accessibility action opengles2 clipboard colornames cssparser cursor desktopservices imageformat_xpm draganddrop opengl egl freetype imageformatplugin harfbuzz highdpiscaling ico im image_heuristic_mask image_text imageformat_bmp imageformat_jpeg imageformat_png imageformat_ppm imageformat_xbm movie pdf picture sessionmanager shortcut standarditemmodel systemtrayicon tabletevent texthtmlparser textodfwriter validator whatsthis wheelevent
+QT.gui.exports = 
+QT.gui_private.enabled_features = egl evdev freetype gif harfbuzz ico jpeg multiprocess png tuiotouch
+QT.gui_private.disabled_features = xkbcommon xcb accessibility-atspi-bridge dxguid angle_d3d11_qdtd direct2d direct2d1_1 dxgi direct3d11 direct3d11_1 direct3d9 directfb drm_atomic dxgi1_2 egl_x11 eglfs eglfs_brcm eglfs_egldevice eglfs_gbm eglfs_mali eglfs_openwfd eglfs_rcar eglfs_viv eglfs_viv_wl eglfs_vsp2 eglfs_x11 system-freetype fontconfig integrityfb integrityhid kms libinput libinput-axis-api linuxfb mirclient mtdev system-harfbuzz system-jpeg system-png system-xcb tslib vnc vsp2 xlib xcb-xlib
+QT.gui_private.libraries = opengl_es2 egl vulkan
+QMAKE_LIBS_OPENGL_ES2 = /home/dsr/Android/Sdk/ndk-bundle/platforms/android-19/arch-arm/usr/lib/libGLESv2.so
+QMAKE_LIBS_EGL = /home/dsr/Android/Sdk/ndk-bundle/platforms/android-19/arch-arm/usr/lib/libEGL.so
+QMAKE_LIBS_VULKAN = 

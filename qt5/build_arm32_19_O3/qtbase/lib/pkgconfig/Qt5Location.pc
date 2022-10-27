@@ -1,0 +1,13 @@
+prefix=/home/dsr/Projects/qt5/build_arm32_19_O3/qtbase
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+
+Name: Qt5 Location
+Description: Qt Location module
+Version: 5.12.2
+Libs: -L${libdir} -lQt5Location 
+Cflags: -DQT_LOCATION_LIB -I${includedir}/QtLocation -I${includedir}
+Requires: Qt5Core Qt5Positioning Qt5Concurrent Qt5Gui Qt5Quick Qt5Network Qt5PositioningQuick Qt5Qml
+

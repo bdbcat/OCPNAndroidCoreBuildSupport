@@ -1,0 +1,14 @@
+prefix=/home/dsr/Projects/qt5/build_arm32_19_O3/qtbase
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+
+Name: Qt5 UiTools
+Description: Qt UiTools module
+Version: 5.12.2
+Libs: -L${libdir} -lQt5UiTools 
+Libs.private: -L/home/dsr/Projects/qt5/build_arm32_19_O3/qtbase/lib -lQt5Widgets -L/home/dsr/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a -lQt5Gui -lQt5Core -lQt5Widgets -L/home/dsr/Projects/qt5/build_arm32_19_O3/qtbase/lib -L/home/dsr/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a -lQt5Gui -lQt5Core /home/dsr/Android/Sdk/ndk-bundle/platforms/android-19/arch-arm/usr/lib/libGLESv2.so -L/home/dsr/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a -lc++_shared -llog -lz -lm -ldl -lc 
+Cflags: -DQT_UITOOLS_LIB -I${includedir}/QtUiTools -I${includedir}
+Requires: Qt5Core Qt5Gui Qt5Widgets
+

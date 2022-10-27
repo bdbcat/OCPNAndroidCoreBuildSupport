@@ -1,0 +1,1 @@
+#include "../../../../../../../qtdeclarative/src/quickwidgets/qquickwidget_p.h"

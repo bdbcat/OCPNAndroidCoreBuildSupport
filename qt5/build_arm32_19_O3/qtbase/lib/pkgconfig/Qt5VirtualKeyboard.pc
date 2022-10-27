@@ -1,0 +1,13 @@
+prefix=/home/dsr/Projects/qt5/build_arm32_19_O3/qtbase
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+
+Name: Qt5 VirtualKeyboard
+Description: Qt VirtualKeyboard module
+Version: 5.12.2
+Libs: -L${libdir} -lQt5VirtualKeyboard 
+Cflags: -DQT_VIRTUALKEYBOARD_LIB -I${includedir}/QtVirtualKeyboard -I${includedir}
+Requires: Qt5Core Qt5Gui Qt5Qml Qt5Quick
+
